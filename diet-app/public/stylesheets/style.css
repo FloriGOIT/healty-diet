@@ -1,19 +1,20 @@
 body {
   padding: 50px;
   font: 14px 'Lucida Grande', Helvetica, Arial, sans-serif;
+  font-family: Verdana, sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17.01px;
+  letter-spacing: 0.04em;
 }
 
-a {
-  color: #00b7ff;
-}
+/* header */
 
-form {
-  display: flex;
-  flex-direction: column;
-  width: 400px;
-}
+.logo-wrapper {background-color: white;
+               font-weight: 400;
+               font-size: 30px;}
+.header-logo-slim {color: gray}
+.header-logo-mom {color: orange}
 
-input,
-button {
-  margin-bottom: 15px;
-}
+
+
